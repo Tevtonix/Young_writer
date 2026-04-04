@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Падение «Города женщин»: что происходит с Катрин Романовской и стоит ли ждать её возвращения? — Forbes</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600&display=swap');
+        
+        :root {
+            --forbes-black: #000000;
+            --forbes-gold: #c5a45c;
+        }
+        
+        body {
+            font-family: 'Inter', system_ui, sans-serif;
+        }
+        
+        .forbes-header {
+            background: #000;
+            color: white;
+        }
+        
+        .article-title {
+            font-family: 'Playfair Display', serif;
+            line-height: 1.1;
+        }
+        
+        .prose p {
+            font-size: 1.125rem;
+            line-height: 1.7;
+        }
+
+        .article-image {
+            width: 100%;
+            margin-bottom: 2rem;
+        }
+        .main-photo {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 16px;
+            box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+        }
+
+        #mobile-menu {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        @media (max-width: 768px) {
+            .article-title {
+                font-size: 2.25rem;
+            }
+            .prose p {
+                font-size: 1.0625rem;
+            }
+        }
+    </style>
+</head>
+<body class="bg-white text-[#111111]">
+    <!-- HEADER -->
+    <header class="forbes-header py-4 border-b border-[#c5a45c] sticky top-0 z-50">
+        <div class="max-w-screen-2xl mx-auto px-4 md:px-6">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center gap-x-3">
+                    <div class="text-4xl font-bold tracking-[-2px] leading-none">Forbes</div>
+                    <div class="text-[#c5a45c] text-xs font-medium tracking-[2px] uppercase pt-1 hidden sm:block">Россия</div>
+                </div>
+
+                <nav id="desktop-nav" class="hidden md:flex items-center gap-x-6 lg:gap-x-8 text-sm font-medium">
+                    <a href="#" class="hover:text-[#c5a45c] transition-colors">БИЗНЕС</a>
+                    <a href="#" class="hover:text-[#c5a45c] transition-colors">ИНВЕСТИЦИИ</a>
+                    <a href="#" class="hover:text-[#c5a45c] transition-colors">ЛИДЕРЫ</a>
+                    <a href="#" class="hover:text-[#c5a45c] transition-colors">ТЕХНОЛОГИИ</a>
+                    <a href="#" class="text-[#c5a45c] border-b-2 border-[#c5a45c] pb-px">Юные таланты</a>
+                    <a href="#" class="hover:text-[#c5a45c] transition-colors">ОБРАЗОВАНИЕ</a>
+                    <a href="#" class="hover:text-[#c5a45c] transition-colors">ЛИФСТАЙЛ</a>
+                    <a href="#" class="hover:text-[#c5a45c] transition-colors">МИР</a>
+                </nav>
+
+                <div class="flex items-center gap-x-3">
+                    <div class="relative hidden sm:block">
+                        <input type="text" 
+                               placeholder="Поиск по Forbes"
+                               class="bg-white/10 text-white placeholder:text-white/60 text-sm px-5 py-2 pl-10 rounded-full w-56 lg:w-72 focus:outline-none focus:bg-white/20 transition-all">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 absolute left-4 top-3 text-white/70" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 01-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </div>
+
+                    <button onclick="alert('Вход в Forbes (демо)')" 
+                            class="text-sm font-medium px-5 py-2 border border-white/70 hover:border-white rounded-full transition-all text-white">
+                        ВОЙТИ
+                    </button>
+
+                    <div class="flex items-center gap-x-1 text-xs font-medium uppercase hidden md:flex">
+                        <div class="w-8 h-8 bg-[#c5a45c] text-black rounded-full flex items-center justify-center font-serif text-xl">F</div>
+                    </div>
+
+                    <button id="hamburger" 
+                            class="md:hidden w-10 h-10 flex items-center justify-center text-3xl text-white hover:text-[#c5a45c] transition-colors">
+                        ☰
+                    </button>
+                </div>
+            </div>
+
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pt-4 border-t border-white/20 text-sm font-medium">
+                <div class="flex flex-col gap-y-4">
+                    <a href="#" class="hover:text-[#c5a45c] transition-colors py-1">БИЗНЕС</a>
+                    <a href="#" class="hover:text-[#c5a45c] transition-colors py-1">ИНВЕСТИЦИИ</a>
+                    <a href="#" class="hover:text-[#c5a45c] transition-colors py-1">ЛИДЕРЫ</a>
+                    <a href="#" class="hover:text-[#c5a45c] transition-colors py-1">ТЕХНОЛОГИИ</a>
+                    <a href="#" class="text-[#c5a45c] py-1">ЮНЫЕ ТАЛАНТЫ</a>
+                    <a href="#" class="hover:text-[#c5a45c] transition-colors py-1">ОБРАЗОВАНИЕ</a>
+                    <a href="#" class="hover:text-[#c5a45c] transition-colors py-1">ЛИФСТАЙЛ</a>
+                    <a href="#" class="hover:text-[#c5a45c] transition-colors py-1">МИР</a>
+                    
+                    <div class="relative mt-4">
+                        <input type="text" 
+                               placeholder="Поиск по Forbes"
+                               class="bg-white/10 w-full text-white placeholder:text-white/60 text-sm px-5 py-3 pl-10 rounded-3xl focus:outline-none focus:bg-white/20">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5 absolute left-4 top-4 text-white/70" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 01-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="max-w-screen-2xl mx-auto px-4 md:px-6 mt-4 border-t border-white/10 pt-3 overflow-x-auto">
+            <div class="flex items-center text-xs uppercase tracking-widest font-medium whitespace-nowrap gap-x-6">
+                <a href="#" class="flex items-center gap-x-1 text-[#c5a45c]">
+                    <span>★</span> Юные таланты
+                </a>
+                <a href="#" class="hover:text-[#c5a45c] transition-colors">Книги</a>
+                <a href="#" class="hover:text-[#c5a45c] transition-colors">Литература</a>
+                <a href="#" class="hover:text-[#c5a45c] transition-colors">Писатели</a>
+                <a href="#" class="hover:text-[#c5a45c] transition-colors">Дебюты</a>
+                <a href="#" class="text-[#c5a45c]">Скандалы и разрывы</a>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-screen-2xl mx-auto px-4 md:px-6 pt-8 pb-16">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8">
+            
+            <div class="lg:col-span-8">
+                
+                <div class="article-image">
+                    <img src="1325dc57-875b-46b2-9be7-36478d7200ce.jpg" 
+                         alt="Катрин Романовская" 
+                         class="main-photo">
+                </div>
+
+                <h1 class="article-title text-4xl md:text-5xl lg:text-6xl font-bold leading-none mb-6 text-[#111111]">
+                    Падение «Города женщин»: что происходит с Катрин Романовской и стоит ли ждать её возвращения?
+                </h1>
+
+                <p class="text-xl md:text-2xl text-[#555555] mb-8 max-w-3xl">
+                    Молодая звезда российской литературы столкнулась с провалом книги и разрывом контракта с издательством. Что дальше?
+                </p>
+
+                <div class="byline flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8 border-b pb-8">
+                    <div>
+                        <div class="font-semibold text-xl">Федор Языков</div>
+                        <div class="text-[#666666] text-sm">Редакция «Три словечка»</div>
+                    </div>
+                    
+                    <div class="text-sm text-[#666666] flex items-center gap-x-6">
+                        <div>25 марта 2026</div>
+                        <div class="flex items-center gap-x-1">
+                            <span>📖</span>
+                            <span>8 мин чтения</span>
+                        </div>
+                        <div onclick="window.print()" class="flex items-center gap-x-1 cursor-pointer hover:text-[#c5a45c]">
+                            <span>🖨</span>
+                            <span>Печать</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="prose prose-lg max-w-none text-[#111111]">
+                    <p>Молодая писательница Катрин Романовская, недавно привлекшая внимание читателей своими первыми романами, столкнулась с трудностями после выхода её последней работы — «Город женщин». Книга, на которую возлагались большие надежды, не смогла оправдать ожиданий. Тираж оказался ниже прогнозируемых показателей, а сама работа вскоре ушла с полок магазинов, не успев стать бестселлером.</p>
+                    
+                    <p>Но это не единственная проблема, с которой столкнулась автор. В литературных кругах активно обсуждают её разногласия с издательством, которое занималось публикацией её книг. Некоторые источники утверждают, что между писательницей и руководством компании возникли серьёзные разногласия, в результате чего был расторгнут контракт. Причины этого до сих пор не раскрыты, и обе стороны предпочитают не комментировать ситуацию.</p>
+                    
+                    <blockquote class="border-l-4 border-[#c5a45c] pl-6 italic text-xl my-8 text-[#444444]">
+                        «По слухам, разрыв мог быть связан как с творческими разногласиями, так и с вопросами, выходящими за пределы просто профессиональных отношений».
+                    </blockquote>
+                    
+                    <p>Однако, подробности остаются неизвестными, что порождает множество домыслов. Официальных комментариев от сторон пока не последовало, что лишь подогревает интерес читателей и инсайдеров.</p>
+                    
+                    <p>На фоне этих событий литературное сообщество разделилось. Одни считают, что Романовская стала жертвой жесткой издательской политики и давления рынка. Другие уверены: автору просто не удалось удержать планку после раннего успеха, а «Город женщин» оказался переоцененным проектом.</p>
+                    
+                    <h3 class="text-2xl font-semibold mt-12 mb-4">Главный вопрос сейчас</h3>
+                    <p>Сможет ли Катрин Романовская вернуть доверие читателей и издателей? Близкие к писательнице источники намекают, что она уже работает над новой рукописью, однако ни название, ни жанр будущей книги пока не раскрываются.</p>
+                    
+                    <p>Станет ли следующий роман попыткой громкого возвращения — или же имя Романовской постепенно исчезнет из новостей книжного мира?</p>
+                    
+                    <p class="text-[#666666] text-sm mt-12 border-t pt-8">
+                        Редакция продолжит следить за развитием ситуации.
+                    </p>
+                    
+                    <div class="flex flex-wrap items-center gap-x-3 mt-10 text-sm font-medium">
+                        <span class="px-4 py-2 bg-[#f5f5f5] rounded-3xl">Катрин Романовская</span>
+                        <span class="px-4 py-2 bg-[#f5f5f5] rounded-3xl">«Город женщин»</span>
+                        <span class="px-4 py-2 bg-[#f5f5f5] rounded-3xl">Литературные скандалы</span>
+                        <span class="px-4 py-2 bg-[#f5f5f5] rounded-3xl">Книжный рынок</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-wrap items-center gap-x-6 mt-12 pt-8 border-t">
+                    <span class="uppercase text-xs font-medium tracking-widest text-[#666666]">Поделиться:</span>
+                    <a href="#" class="flex items-center justify-center w-9 h-9 bg-[#1DA1F2] text-white rounded-2xl hover:scale-110 transition-transform">𝕏</a>
+                    <a href="#" class="flex items-center justify-center w-9 h-9 bg-[#4267B2] text-white rounded-2xl hover:scale-110 transition-transform">f</a>
+                    <a href="#" class="flex items-center justify-center w-9 h-9 bg-[#24A1DE] text-white rounded-2xl hover:scale-110 transition-transform">TG</a>
+                    <a href="#" class="flex items-center justify-center w-9 h-9 bg-[#FF0000] text-white rounded-2xl hover:scale-110 transition-transform">VK</a>
+                </div>
+            </div>
+
+            <div class="lg:col-span-4 space-y-8">
+                <div class="bg-[#f8f8f8] p-6 rounded-3xl">
+                    <div class="uppercase text-[#c5a45c] text-xs font-medium mb-4">Также по теме</div>
+                    <div class="space-y-6">
+                        <a href="#" class="block group">
+                            <div class="text-lg font-semibold leading-tight group-hover:text-[#c5a45c] transition-colors">Как молодой писательнице заработать миллион на первой книге: 5 реальных кейсов</div>
+                            <div class="text-xs text-[#888] mt-1">24 марта 2026 • 4 мин</div>
+                        </a>
+                        <a href="#" class="block group">
+                            <div class="text-lg font-semibold leading-tight group-hover:text-[#c5a45c] transition-colors">Разрыв контракта: что делать автору, когда издательство «сливает» тираж</div>
+                            <div class="text-xs text-[#888] mt-1">23 марта 2026 • 7 мин</div>
+                        </a>
+                        <a href="#" class="block group">
+                            <div class="text-lg font-semibold leading-tight group-hover:text-[#c5a45c] transition-colors">«Город женщин» vs «Город девочек»: почему критики разошлись во мнениях</div>
+                            <div class="text-xs text-[#888] mt-1">22 марта 2026 • 3 мин</div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-black text-white py-12">
+        <div class="max-w-screen-2xl mx-auto px-4 md:px-6 text-xs">
+            <div class="grid grid-cols-2 md:grid-cols-5 gap-y-8">
+                <div>
+                    <div class="text-2xl font-serif mb-4">Forbes</div>
+                    <p class="text-white/60">© 2026 Forbes Media LLC. Все права защищены.</p>
+                </div>
+                <div class="space-y-2">
+                    <a href="#" class="block hover:text-[#c5a45c]">О Forbes</a>
+                    <a href="#" class="block hover:text-[#c5a45c]">Контакты</a>
+                    <a href="#" class="block hover:text-[#c5a45c]">Реклама</a>
+                </div>
+                <div class="space-y-2">
+                    <a href="#" class="block hover:text-[#c5a45c]">Юный таланты</a>
+                    <a href="#" class="block hover:text-[#c5a45c]">Книжный клуб Forbes</a>
+                    <a href="#" class="block hover:text-[#c5a45c]">Подкасты</a>
+                </div>
+                <div class="space-y-2">
+                    <a href="#" class="block hover:text-[#c5a45c]">Условия использования</a>
+                    <a href="#" class="block hover:text-[#c5a45c]">Политика конфиденциальности</a>
+                </div>
+                <div>
+                    <div class="flex items-center gap-x-2 text-[#c5a45c] text-2xl">
+                        𝕏 &nbsp; 📸 &nbsp; 𝕐
+                    </div>
+                    <p class="text-white/40 mt-6 text-[10px]">Точная реплика Forbes.ru — полностью адаптирована под мобильные устройства</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        tailwind.config = { content: [] }
+
+        const hamburger = document.getElementById('hamburger')
+        const mobileMenu = document.getElementById('mobile-menu')
+
+        hamburger.addEventListener('click', () => {
+            if (mobileMenu.classList.contains('hidden')) {
+                mobileMenu.style.display = 'block'
+                mobileMenu.classList.remove('hidden')
+                hamburger.innerHTML = '✕'
+            } else {
+                mobileMenu.style.display = 'none'
+                mobileMenu.classList.add('hidden')
+                hamburger.innerHTML = '☰'
+            }
+        })
+
+        window.addEventListener('resize', () => {
+            if (window.innerWidth >= 768) {
+                mobileMenu.style.display = 'none'
+                mobileMenu.classList.add('hidden')
+                hamburger.innerHTML = '☰'
+            }
+        })
+    </script>
+</body>
+</html>
